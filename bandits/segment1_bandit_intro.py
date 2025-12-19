@@ -87,7 +87,8 @@ class BanditIntro(Scene):
                 .move_to(reward_text.get_center())
             )
 
-            pull_label = MathTex(f"Pull {t}: a_{arm_idx+1}", font_size=26).next_to(header, DOWN)
+            pull_label = MathTex(rf"\text{{Pull {t}: }} a_{{{arm_idx+1}}}",font_size=26).next_to(header, DOWN)
+
 
             self.play(
                 FadeIn(bubble, scale=0.9),

@@ -1,0 +1,9 @@
+# vscode
+.vscode/
+
+# macOS
+.DS_Store
+
+# taro's test stuff
+/taro-test/
+.claude/
